@@ -1,6 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: #C70039;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .grid-container {
