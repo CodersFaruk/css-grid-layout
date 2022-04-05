@@ -13,9 +13,12 @@ body {
 }
 .grid-container {
   width: 80vw;
+  background: rgb(233, 6, 241);
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: repeat(2,1fr) 1fr;
+  grid-template-rows: repeat(3, 150px);
+  /* grid-column-gap: 20px;
+  grid-row-gap: 20px; */
   grid-gap: 20px;
 }
 
@@ -50,5 +53,3 @@ body {
 .items-9 {
   background: #7ed957;
 }
-
-
